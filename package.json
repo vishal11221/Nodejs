@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "A node js practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "VishuIson"
+  ],
+  "author": "Vishal",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "simple-node-logger": "^21.8.12"
+  }
+}

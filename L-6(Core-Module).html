@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core-Module in Nodejs</title>
+</head>
+<body>
+    <ol>
+        <li>What are the Core Modules:- 
+            Core modules are inbuild function and method that is build for helping developer to connect with database.
+        </li>
+        <li>What is the difference between Global and Non-Global Module ? <br> 
+            That module no need to import called global module like:- console.log is global module. <br> 
+            That module need to import called Non-global module like:- fs is non-global module.</li>
+        <li>Global Module Example:- console.log</li>
+        <li>Non-Global Module With Example:- fs</li>
+        <li>Interview-Question
+            <ol>
+                <li>fs is assign on top only or in file anywhere we use ?
+                    <br>
+                    We use fs anywhere,not mandatory to use at top
+                </li>
+                <li>Can we write writeFilesync at the type of import ?
+                    <br>
+                    Yes
+                </li>
+                <li>The name of varible same as fs ? 
+                    <br>
+                    No,anything you change because variable name you assign from your prospective.
+                </li>
+            </ol>
+        </li>
+    </ol>
+
+    <ol>Types of Modules in Nodejs:- 
+        <li>http:-creates an HTTP server in Node.js.</li>
+        <li>fs:-used to handle file system.</li>
+        <li>url:-module provides utilities for URL resolution and parsing.</li>
+    </ol>
+
+    <p>Can we write fs at the top of code ?
+        No,it is not required, that is your choice where you want to stay that code.
+    </p>
+
+    <script>
+       
+        add = function(a,b){
+            return a+b;
+        }
+
+        console.log(add(2,4));
+    </script>
+</body>
+</html>
