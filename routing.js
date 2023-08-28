@@ -6,12 +6,4 @@ app.get('',(req,res)=>{
     res.send('Welcome' + req.query.name);
 })
 
-app.get('/about',(req,res)=>{
-    res.send('Welcome to about page')
-})
-
-app.get('/contact',(req,res)=>{
-    res.send('Welcome to contact page')
-})
-
-app.listen(5000);
+app.listen(6000);
