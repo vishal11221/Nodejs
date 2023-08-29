@@ -11,9 +11,16 @@ app.get('/profile',(req,res)=>{
         name: 'Vishal Raj',
         course: 'MCA',
         roll: 78,
-        contact: 8809739667
+        contact: 8809739667,
+        skills: ['HTML','CSS','BOOTSTRAP','JAVASCRIPT','ANGULAR','NODEJS','MYSQL']
     }
     res.render(`${viewPath}/profile.ejs`,{user})
+})
+
+app.get('/login',(req,res)=>{
+
+    res.render(`${viewPath}/login.ejs`)
+
 })
 
 app.listen(2000);

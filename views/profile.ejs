@@ -6,9 +6,16 @@
     <title>Profile Page</title>
 </head>
 <body>
-    <h3>Welcome <%= user.name%></h3>
-    <h3>Course:- <%= user.course%></h3>
-    <h3>Roll:- <%= user.roll%></h3>
-    <h3>Contact:- <%= user.contact%></h3>
+    <%- include('common/header') %>
+    <h3>Welcome <%= user.name %></h3>
+    <h3>Course:- <%= user.course %></h3>
+    <h3>Roll:- <%= user.roll %></h3>
+    <h3>Contact:- <%= user.contact %></h3>
+    <ul>
+        <% user.skills.forEach((item)=>{ %>
+        <li><%= item %></li>
+
+        <% }) %>
+    </ul>
 </body>
 </html>
