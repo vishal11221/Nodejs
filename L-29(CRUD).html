@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud operations in Mongodb</title>
+</head>
+<body>
+    <ol>
+        <li>How to insert data collection?</li>
+        <li>How to check inserted data?</li>
+        <li>How to updata data</li>
+        <li>How to delete data</li>
+        <li>Interview-Questions</li>
+    </ol>
+
+    <ol>
+        <li>How to insert data in particular database ? <br>
+            db.collectionname.insertOne({
+                name:'m 40',
+                brand: 'samsung',
+                price: 18000
+            });</li>
+
+        <li>How to insert data from Mongodb UI ? <br>
+            Go to your database,click on collection,click on Add Data button then insert data init in object form then click on Insert button to insert.</li>
+
+        <li>How to see your inserted data or existing data via terminal ? <br>
+             db.collectionname.find() then your all existing record show in terminal.</li>
+
+        <li>How to update data from UI ? <br>
+            Simply hover on data then click on pencil icon after that you have option to edit you edit and click on Update button.</li>
+
+        <li>How to update data from Terminal ? <br>
+            db.collectionname.updateOne({"name":"y10"},{$set:{'brand':'Nokia'}})</li>
+
+        <li>How to delete data from UI ? <br>
+            Simply hover on record there is one delete option,simply click on it for delete that particular record.</li>
+
+        <li>How to delete data from Terminal ? <br>
+            db.collectionname.deleteOne({name:"y11"})</li>
+
+        <li>Interview-Question:- <br>
+            What is Mongodb? <br>
+            What is the difference between SQL and Mongodb ? <br>
+            </li>
+    </ol>
+</body>
+</html>
